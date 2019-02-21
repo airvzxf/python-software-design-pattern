@@ -10,8 +10,7 @@ should be able to affect the specification of the class.
 Split it in two classes GeometricRectangle and DrawRectangle.
 
 References:
-Duncan Watson-Parris
-Copyright Tessella 2013
+    Duncan Watson-Parris, Copyright Tessella 2013
 """
 
 

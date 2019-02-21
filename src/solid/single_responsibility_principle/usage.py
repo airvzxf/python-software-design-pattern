@@ -16,7 +16,6 @@ PYTHONPATH=./../../ \
 ./usage.py
 ```
 """
-
 from solid.single_responsibility_principle.classes.draw_rectangle import DrawRectangle
 from solid.single_responsibility_principle.classes.geometric_rectangle import GeometricRectangle
 from solid.single_responsibility_principle.classes.rectangle import Rectangle

@@ -10,17 +10,15 @@ should be able to affect the specification of the class.
 Split it in two classes GeometricRectangle and DrawRectangle.
 
 References:
-Duncan Watson-Parris
-Copyright Tessella 2013
+    Duncan Watson-Parris, Copyright Tessella 2013
 """
-
-from solid.single_responsibility_principle.classes.geometric_rectangle import GeometricRectangle
 
 
 class DrawRectangle:
     """
     Draw a geometric rectangle.
     """
+    from solid.single_responsibility_principle.classes.geometric_rectangle import GeometricRectangle
 
     def __init__(self, rectangle: GeometricRectangle) -> None:
         """

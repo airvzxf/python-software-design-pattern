@@ -10,8 +10,7 @@ should be able to affect the specification of the class.
 Given a class which has two responsibilities.
 
 References:
-Duncan Watson-Parris
-Copyright Tessella 2013
+    Duncan Watson-Parris, Copyright Tessella 2013
 """
 
 
