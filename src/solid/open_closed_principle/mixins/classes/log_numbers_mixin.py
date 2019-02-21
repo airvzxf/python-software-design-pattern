@@ -30,7 +30,7 @@ class LogNumbersMixIn(object):
         Example to shows how this method is never called, except if this class is called first for example:
 
         ```python
-            class InverseNumber(LogNumbersMixIn, NotComparableNumbersMixIn):
+            class AntiNumber(LogNumbersMixIn, NotComparableNumbersMixIn):
                 pass
         ```
 

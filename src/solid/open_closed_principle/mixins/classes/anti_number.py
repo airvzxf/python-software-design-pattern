@@ -12,7 +12,7 @@ from solid.open_closed_principle.mixins.classes.log_numbers_mixin import LogNumb
 from solid.open_closed_principle.mixins.classes.numbers_mixin import NotComparableNumbersMixIn
 
 
-class InverseNumber(NotComparableNumbersMixIn, LogNumbersMixIn):
+class AntiNumber(NotComparableNumbersMixIn, LogNumbersMixIn):
     """
     Create a number and add the inverse equality also logs the creation of the class.
     """

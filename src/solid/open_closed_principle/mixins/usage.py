@@ -21,44 +21,44 @@ References:
     https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful/36222493#36222493
     https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful/20022860#20022860
 """
-from solid.open_closed_principle.mixins.classes.inverse_number import InverseNumber
+from solid.open_closed_principle.mixins.classes.anti_number import AntiNumber
 from solid.open_closed_principle.mixins.classes.number import Number
 
 if __name__ == '__main__':
     assert (Number(5) == Number(5)) is True
     assert (Number(2) == Number(8)) is False
-    assert (InverseNumber(5) == InverseNumber(5)) is False
-    assert (InverseNumber(2) == InverseNumber(8)) is True
+    assert (AntiNumber(5) == AntiNumber(5)) is False
+    assert (AntiNumber(2) == AntiNumber(8)) is True
 
     assert (Number(5) != Number(10)) is True
     assert (Number(5) != Number(5)) is False
-    assert (InverseNumber(5) != InverseNumber(10)) is False
-    assert (InverseNumber(5) != InverseNumber(5)) is True
+    assert (AntiNumber(5) != AntiNumber(10)) is False
+    assert (AntiNumber(5) != AntiNumber(5)) is True
 
     assert (Number(1) < Number(10)) is True
     assert (Number(5) < Number(5)) is False
     assert (Number(10) < Number(1)) is False
-    assert (InverseNumber(1) < InverseNumber(10)) is False
-    assert (InverseNumber(5) < InverseNumber(5)) is True
-    assert (InverseNumber(10) < InverseNumber(1)) is True
+    assert (AntiNumber(1) < AntiNumber(10)) is False
+    assert (AntiNumber(5) < AntiNumber(5)) is True
+    assert (AntiNumber(10) < AntiNumber(1)) is True
 
     assert (Number(1) <= Number(10)) is True
     assert (Number(5) <= Number(5)) is True
     assert (Number(10) <= Number(1)) is False
-    assert (InverseNumber(1) <= InverseNumber(10)) is False
-    assert (InverseNumber(5) <= InverseNumber(5)) is False
-    assert (InverseNumber(10) <= InverseNumber(1)) is True
+    assert (AntiNumber(1) <= AntiNumber(10)) is False
+    assert (AntiNumber(5) <= AntiNumber(5)) is False
+    assert (AntiNumber(10) <= AntiNumber(1)) is True
 
     assert (Number(10) > Number(1)) is True
     assert (Number(5) > Number(5)) is False
     assert (Number(1) > Number(10)) is False
-    assert (InverseNumber(10) > InverseNumber(1)) is False
-    assert (InverseNumber(5) > InverseNumber(5)) is True
-    assert (InverseNumber(1) > InverseNumber(10)) is True
+    assert (AntiNumber(10) > AntiNumber(1)) is False
+    assert (AntiNumber(5) > AntiNumber(5)) is True
+    assert (AntiNumber(1) > AntiNumber(10)) is True
 
     assert (Number(10) >= Number(1)) is True
     assert (Number(5) >= Number(5)) is True
     assert (Number(1) >= Number(10)) is False
-    assert (InverseNumber(10) >= InverseNumber(1)) is False
-    assert (InverseNumber(5) >= InverseNumber(5)) is False
-    assert (InverseNumber(1) >= InverseNumber(10)) is True
+    assert (AntiNumber(10) >= AntiNumber(1)) is False
+    assert (AntiNumber(5) >= AntiNumber(5)) is False
+    assert (AntiNumber(1) >= AntiNumber(10)) is True
