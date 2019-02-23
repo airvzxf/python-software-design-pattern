@@ -18,6 +18,11 @@ PYTHONPATH=./../../ \
 ./../../venv/bin/python \
 ./usage.py
 ```
+
+References:
+    https://en.wikipedia.org/wiki/Monkey_patch
+    https://www.researchgate.net/publication/323935872
+    https://www.geeksforgeeks.org/monkey-patching-in-python-dynamic-behavior/
 """
 from solid.open_closed_principle.monkey_patching.classes.geometric_rectangle import GeometricRectangle
 
