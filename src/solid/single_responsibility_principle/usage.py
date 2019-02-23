@@ -17,6 +17,7 @@ PYTHONPATH=./../../ \
 ```
 
 References:
+    https://en.wikipedia.org/wiki/Single_responsibility_principle
     https://www.researchgate.net/publication/323935872
 """
 from solid.single_responsibility_principle.classes.draw_rectangle import DrawRectangle
