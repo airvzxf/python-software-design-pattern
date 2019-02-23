@@ -4,22 +4,8 @@
 SOLID
 
 Open/Closed Principle:
-Software entities ... should be open for extension, but closed for modification.
-
-
-Mix-ins:
-Mix-in programming is a style of software development where units of functionality are created in a class and then mixed
-in with other classes.
-
-A mix-in is not the “primary” superclass of any given class, does not care what class it is used with, is used with many
-classes scattered throughout the class hierarchy and is introduced dynamically at runtime.
-
-Python provides an ideal language for mix-in development because it supports multiple inheritance, supports full-dynamic
-binding and allows dynamic changes to classes
-
 
 References:
-    https://www.linuxjournal.com/article/4540
     https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful/20022860#20022860
 """
 

@@ -16,6 +16,13 @@ The delineation between using true inheritance and using mixin's is nuanced, but
 is independent enough that it doesn't feel the same as a parent class.
 Mixin's aren't generally used on their own, but aren't abstract classes either.
 
+Mixin's encourage code reuse and can be used to avoid the inheritance ambiguity that multiple inheritance can cause
+the "diamond problem", or to work around lack of support for multiple inheritance in a language. A mixin can also be
+viewed as an interface with implemented methods. This pattern is an example of enforcing the dependency inversion
+principle.
+
+
+
 Execute:
 ```bash
 PYTHONPATH=./../../ \
@@ -24,7 +31,9 @@ PYTHONPATH=./../../ \
 ```
 
 References:
+    https://en.wikipedia.org/wiki/Mixin
     https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
+    https://www.linuxjournal.com/article/4540
     https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful/36222493#36222493
     https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful/20022860#20022860
 """
