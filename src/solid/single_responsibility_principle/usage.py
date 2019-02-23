@@ -15,6 +15,9 @@ PYTHONPATH=./../../ \
 ./../../venv/bin/python \
 ./usage.py
 ```
+
+References:
+    https://www.researchgate.net/publication/323935872
 """
 from solid.single_responsibility_principle.classes.draw_rectangle import DrawRectangle
 from solid.single_responsibility_principle.classes.geometric_rectangle import GeometricRectangle
