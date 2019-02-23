@@ -16,6 +16,13 @@ The delineation between using true inheritance and using mixin's is nuanced, but
 is independent enough that it doesn't feel the same as a parent class.
 Mixin's aren't generally used on their own, but aren't abstract classes either.
 
+Execute:
+```bash
+PYTHONPATH=./../../ \
+./../../venv/bin/python \
+./usage.py
+```
+
 References:
     https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
     https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful/36222493#36222493
