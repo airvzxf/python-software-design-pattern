@@ -45,7 +45,7 @@ class NotComparableNumbersMixIn(object):
         :return: If it's equal return true.
         :rtype: bool
         """
-        return not self.__getattribute__("number") == other.__getattribute__("number")
+        return not self.__getattribute__('number') == other.__getattribute__('number')
 
     def __ne__(self, other: object) -> bool:
         """
@@ -57,7 +57,7 @@ class NotComparableNumbersMixIn(object):
         :return: If it's not equal return true.
         :rtype: bool
         """
-        return not self.__getattribute__("number") != other.__getattribute__("number")
+        return not self.__getattribute__('number') != other.__getattribute__('number')
 
     def __le__(self, other: object) -> bool:
         """
@@ -69,7 +69,7 @@ class NotComparableNumbersMixIn(object):
         :return: If it's less and equal return true.
         :rtype: bool
         """
-        return not self.__getattribute__("number") <= other.__getattribute__("number")
+        return not self.__getattribute__('number') <= other.__getattribute__('number')
 
     def __lt__(self, other: object) -> bool:
         """
@@ -81,7 +81,7 @@ class NotComparableNumbersMixIn(object):
         :return: If it's less than other return true.
         :rtype: bool
         """
-        return not self.__getattribute__("number") < other.__getattribute__("number")
+        return not self.__getattribute__('number') < other.__getattribute__('number')
 
     def __ge__(self, other: object) -> bool:
         """
@@ -93,7 +93,7 @@ class NotComparableNumbersMixIn(object):
         :return: If it's greater or equal return true.
         :rtype: bool
         """
-        return not self.__getattribute__("number") >= other.__getattribute__("number")
+        return not self.__getattribute__('number') >= other.__getattribute__('number')
 
     def __gt__(self, other: object) -> bool:
         """
@@ -105,4 +105,4 @@ class NotComparableNumbersMixIn(object):
         :return: If it's greater than other return true.
         :rtype: bool
         """
-        return not self.__getattribute__("number") > other.__getattribute__("number")
+        return not self.__getattribute__('number') > other.__getattribute__('number')
