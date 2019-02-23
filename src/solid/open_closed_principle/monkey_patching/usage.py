@@ -3,11 +3,14 @@
 """
 SOLID
 
-Single responsibility principle.
-A class should have only a single responsibility, that is, only changes to one part of the software's specification
-should be able to affect the specification of the class.
+Open/Closed Principle: Mix-ins.
+Software entities ... should be open for extension, but closed for modification..
 
-Example of the implementation of the Rectangle and GeometricRectangle classes.
+A monkey patch is a way for a program to extend or modify supporting system software locally (affecting only the running
+instance of the program).
+
+In Python, we are able to change the functionality of any method, class or function at will. We can even add methods to
+classes (or individual instances!) at run-time.
 
 Execute:
 ```bash
@@ -66,3 +69,6 @@ if __name__ == '__main__':
     geometric_monkey = GeometricRectangle(width=5, height=10)
     print("geometric_monkey: ", geometric_monkey.area())
     print()
+
+    # You can also remove the new method
+    del geometric_rectangle.monkey_patching

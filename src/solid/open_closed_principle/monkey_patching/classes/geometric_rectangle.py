@@ -3,14 +3,7 @@
 """
 SOLID
 
-Single responsibility principle.
-A class should have only a single responsibility, that is, only changes to one part of the software's specification
-should be able to affect the specification of the class.
-
-Split it in two classes GeometricRectangle and DrawRectangle.
-
-References:
-    Duncan Watson-Parris, Copyright Tessella 2013
+Open closed principle: Monkey patching.
 """
 
 
